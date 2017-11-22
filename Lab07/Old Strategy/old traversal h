@@ -1,0 +1,68 @@
+/*
+File: Traversal.h
+Author: Bud Linville
+Date: March 10, 2016
+Purpose: To perform all operations that are required in moving the knight across the board
+*/
+
+#ifndef _TRA_
+#define _TRA_
+#include "ChessBoard.h"
+
+class Traversal {
+  private:
+    ChessBoard myKnightBoard;
+
+    /*
+      @pre:
+      @post:
+      @return: a boolean value corresponding to whether or not the move was out of bounds.
+    */
+    bool isMoveOutOfBounds(int nextRow, int nextColumn);
+
+    /*
+      @pre:
+      @post:
+      @return: a boolean value corresponding to whether or not a move is available to move to
+      @Note: An invalid move is one that is either out of bound or has been landed on previously
+    */
+    bool isMoveOpen(int nextRow, int nextColumn);
+
+    /*
+      @pre: A square is left unmarked and the moveOrder array corresponding to it is empty
+      @post: if a square is available, the "knight moves to that square"
+        @Or:  it updates ChessBoard so that the square's representation in the
+              2D array is now taken so that the "chess piece" will not land on
+              it again. Also updates the moveOrder array to a value corresponding
+              to the value at which the piece landed on that square.
+      @Note: Recursive method => also checks to see if future moves will Fail
+      @post2: if future moves fail, will undo changes to ChessBoard's 2D arrays
+      @return: returns a boolean value corresponding to whether the next move works
+               will only return TRUE when the board is filled up
+    */
+    bool traverseBoard(int curRow, int curCol);
+    int BOARD_SIZE;
+    int moveNumber;
+    int possibleMove;
+
+  public:
+    /*
+      @Constructor
+      @Note1: moveNumber refers the total number of moves the chess piece has made
+      @Note2: possibleMove refers to an index of one of the 8 potential moves that a knight piece
+        can make on a chess board.
+    */
+    Traversal(ChessBoard &mkb);
+
+    /*
+      @pre: Called from main class, cycles through the 8 possible moves a knight can make
+      @post: If one of the 8 moves does not work, the variable - 'possibleMove' - is updated and
+             the next case is checked.
+      @Note: Works in tandem with "traverseBoard" method to behave recursively
+    */
+    bool checkPossibleMoves(int currentRow, int currentColumn);
+
+};
+
+#endif
+ 

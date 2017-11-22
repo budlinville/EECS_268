@@ -1,0 +1,61 @@
+ if (c >= '0' && c <= '9') {
+    return true;
+  } else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
+    return true;
+  } else if (c == ' ' || c == '\n' || c == '\t') {
+    return true;
+  } else {
+    for (int i = 0; i < 14; i++) {
+      if (c == specialChar[i]) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+}
+
+bool XMLConvention::isXML(std::string XMLChunk) throw (PrecondViolatedExcep){
+  std::string tag = "";
+  std::string tag2 = "";
+  bool ValidTag = false;
+  bool isOpenTag = true;
+  std::string expectedTag = "";
+  int endPos = 0;
+  
+  for (int i = 0; i < XMLChunk.length(); i++) {   //gets open tag
+    if (XMLChunk[i] == "<") {
+      tag += "<";
+      
+      int j = 0;
+      while (j != ">") {
+        j++;
+        tag += XMLChunk[j];
+      }
+      i += j;
+      
+      validTag = isValidTag(tag);
+      if (validTag) {
+        if (tag[1] == '/') {
+          isOpenTag = false;
+        }
+      }
+      
+      expectedTag = tag.insert(1, "/");
+      for (int k = i; k < XMLChunk.length(); k++) {
+        if (XMLChunk[k] == "<") {
+          tag2 += "<";
+          int l = k;
+          while (l != ">") {
+            l++;
+            tag2 += XMLChunk[l];
+          }
+        }
+        if (tag2 == expectedTag) {
+          endPos = k;
+        }
+      }
+    }
+  }
+    
+    

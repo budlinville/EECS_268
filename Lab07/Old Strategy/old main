@@ -1,0 +1,43 @@
+ 
+/*
+File: main.cpp
+Author: Bud Linville
+Date: March 10, 2016
+Purpose: To write a recursively defined program that moves a theoretical ches piece across every
+				 square of an n x m chess board, while only touching each square once.
+*/
+
+#include <cstdlib>
+#include <iostream>
+#include "ChessBoard.h"
+#include "Traversal.h"
+
+int main(int argc, char* argv[]){
+	int m = 0;	//num of Rows;
+	int n = 0; 	//num of columns;
+	int initialKnightRow = 0;	//index corresponding to the initial row in which the knight starts
+	int initialKnightColumn = 0;	//index corresponding to the initial column in which the knight starts
+	bool itWorked = false;
+	m = atoi(argv[1]);
+	n = atoi(argv[2]);
+	initialKnightRow = atoi(argv[3]);
+	initialKnightColumn = atoi(argv[4]);
+
+	ChessBoard myKnightBoard(m, n, initialKnightRow, initialKnightColumn);
+
+	ChessBoard *mkbPointer = &myKnightBoard;	//a pointer so I can easily pass it by reference Traversal class
+
+	Traversal KnightBoardTraversal(*mkbPointer);		//object for the "operations class" of the program
+
+	//itWorked must be a boolean value because the recursive method in which is calling is of type bool
+	itWorked = KnightBoardTraversal.checkPossibleMoves(initialKnightRow, initialKnightColumn);
+
+	if (itWorked) {
+		myKnightBoard.printBoard();
+	} else {
+		std::cout << "Failed!" << std::endl;
+		myKnightBoard.printBoard();
+	}
+
+	return 0;
+}

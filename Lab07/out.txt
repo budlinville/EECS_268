@@ -1,0 +1,497 @@
+a
+b
+d
+Current check on (row,col): (-2,1)
+numMoves:0
+Move is not available
+Current check on (row,col): (-1,2)
+numMoves:0
+Move is not available
+Current check on (row,col): (1,2)
+numMoves:0
+Move is available
+numMoves:1
+
+0
+
+a
+b
+d
+Current check on (row,col): (-1,3)
+numMoves:1
+Move is not available
+Current check on (row,col): (0,4)
+numMoves:1
+Move is available
+numMoves:2
+
+0
+
+a
+b
+d
+Current check on (row,col): (-2,5)
+numMoves:2
+Move is not available
+Current check on (row,col): (-1,6)
+numMoves:2
+Move is not available
+Current check on (row,col): (1,6)
+numMoves:2
+Move is not available
+Current check on (row,col): (2,5)
+numMoves:2
+Move is not available
+Current check on (row,col): (2,3)
+numMoves:2
+Move is available
+numMoves:3
+
+0
+
+a
+b
+d
+Current check on (row,col): (0,4)
+numMoves:3
+Move is not available
+Current check on (row,col): (1,5)
+numMoves:3
+Move is not available
+Current check on (row,col): (3,5)
+numMoves:3
+Move is not available
+Current check on (row,col): (4,4)
+numMoves:3
+Move is available
+numMoves:4
+
+0
+
+a
+b
+d
+Current check on (row,col): (2,5)
+numMoves:4
+Move is not available
+Current check on (row,col): (3,6)
+numMoves:4
+Move is not available
+Current check on (row,col): (5,6)
+numMoves:4
+Move is not available
+Current check on (row,col): (6,5)
+numMoves:4
+Move is not available
+Current check on (row,col): (6,3)
+numMoves:4
+Move is not available
+Current check on (row,col): (5,2)
+numMoves:4
+Move is not available
+Current check on (row,col): (3,2)
+numMoves:4
+Move is available
+numMoves:5
+
+0
+
+a
+b
+d
+Current check on (row,col): (1,3)
+numMoves:5
+Move is available
+numMoves:6
+
+0
+
+a
+b
+d
+Current check on (row,col): (-1,4)
+numMoves:6
+Move is not available
+Current check on (row,col): (0,5)
+numMoves:6
+Move is not available
+Current check on (row,col): (2,5)
+numMoves:6
+Move is not available
+Current check on (row,col): (3,4)
+numMoves:6
+Move is available
+numMoves:7
+
+0
+
+a
+b
+d
+Current check on (row,col): (1,5)
+numMoves:7
+Move is not available
+Current check on (row,col): (2,6)
+numMoves:7
+Move is not available
+Current check on (row,col): (4,6)
+numMoves:7
+Move is not available
+Current check on (row,col): (5,5)
+numMoves:7
+Move is not available
+Current check on (row,col): (5,3)
+numMoves:7
+Move is not available
+Current check on (row,col): (4,2)
+numMoves:7
+Move is available
+numMoves:8
+
+0
+
+a
+b
+d
+Current check on (row,col): (2,3)
+numMoves:8
+Move is not available
+Current check on (row,col): (3,4)
+numMoves:8
+Move is not available
+Current check on (row,col): (5,4)
+numMoves:8
+Move is not available
+Current check on (row,col): (6,3)
+numMoves:8
+Move is not available
+Current check on (row,col): (6,1)
+numMoves:8
+Move is not available
+Current check on (row,col): (5,0)
+numMoves:8
+Move is not available
+Current check on (row,col): (3,0)
+numMoves:8
+Move is available
+numMoves:9
+
+0
+
+a
+b
+d
+Current check on (row,col): (1,1)
+numMoves:9
+Move is available
+numMoves:10
+
+0
+
+a
+b
+d
+Current check on (row,col): (-1,2)
+numMoves:10
+Move is not available
+Current check on (row,col): (0,3)
+numMoves:10
+Move is available
+numMoves:11
+
+0
+
+a
+b
+d
+Current check on (row,col): (-2,4)
+numMoves:11
+Move is not available
+Current check on (row,col): (-1,5)
+numMoves:11
+Move is not available
+Current check on (row,col): (1,5)
+numMoves:11
+Move is not available
+Current check on (row,col): (2,4)
+numMoves:11
+Move is available
+numMoves:12
+
+0
+
+a
+b
+d
+Current check on (row,col): (0,5)
+numMoves:12
+Move is not available
+Current check on (row,col): (1,6)
+numMoves:12
+Move is not available
+Current check on (row,col): (3,6)
+numMoves:12
+Move is not available
+Current check on (row,col): (4,5)
+numMoves:12
+Move is not available
+Current check on (row,col): (4,3)
+numMoves:12
+Move is available
+numMoves:13
+
+0
+
+a
+b
+d
+Current check on (row,col): (2,4)
+numMoves:13
+Move is not available
+Current check on (row,col): (3,5)
+numMoves:13
+Move is not available
+Current check on (row,col): (5,5)
+numMoves:13
+Move is not available
+Current check on (row,col): (6,4)
+numMoves:13
+Move is not available
+Current check on (row,col): (6,2)
+numMoves:13
+Move is not available
+Current check on (row,col): (5,1)
+numMoves:13
+Move is not available
+Current check on (row,col): (3,1)
+numMoves:13
+Move is available
+numMoves:14
+
+0
+
+a
+b
+d
+Current check on (row,col): (1,2)
+numMoves:14
+Move is not available
+Current check on (row,col): (2,3)
+numMoves:14
+Move is not available
+Current check on (row,col): (4,3)
+numMoves:14
+Move is not available
+Current check on (row,col): (5,2)
+numMoves:14
+Move is not available
+Current check on (row,col): (5,0)
+numMoves:14
+Move is not available
+Current check on (row,col): (4,-1)
+numMoves:14
+Move is not available
+Current check on (row,col): (2,-1)
+numMoves:14
+Move is not available
+Current check on (row,col): (1,0)
+numMoves:14
+Move is available
+numMoves:15
+
+0
+
+a
+b
+d
+Current check on (row,col): (-1,1)
+numMoves:15
+Move is not available
+Current check on (row,col): (0,2)
+numMoves:15
+Move is available
+numMoves:16
+
+0
+
+a
+b
+d
+Current check on (row,col): (-2,3)
+numMoves:16
+Move is not available
+Current check on (row,col): (-1,4)
+numMoves:16
+Move is not available
+Current check on (row,col): (1,4)
+numMoves:16
+Move is available
+numMoves:17
+
+0
+
+a
+b
+d
+Current check on (row,col): (-1,5)
+numMoves:17
+Move is not available
+Current check on (row,col): (0,6)
+numMoves:17
+Move is not available
+Current check on (row,col): (2,6)
+numMoves:17
+Move is not available
+Current check on (row,col): (3,5)
+numMoves:17
+Move is not available
+Current check on (row,col): (3,3)
+numMoves:17
+Move is available
+numMoves:18
+
+0
+
+a
+b
+d
+Current check on (row,col): (1,4)
+numMoves:18
+Move is not available
+Current check on (row,col): (2,5)
+numMoves:18
+Move is not available
+Current check on (row,col): (4,5)
+numMoves:18
+Move is not available
+Current check on (row,col): (5,4)
+numMoves:18
+Move is not available
+Current check on (row,col): (5,2)
+numMoves:18
+Move is not available
+Current check on (row,col): (4,1)
+numMoves:18
+Move is available
+numMoves:19
+
+0
+
+a
+b
+d
+Current check on (row,col): (2,2)
+numMoves:19
+Move is available
+numMoves:20
+
+0
+
+a
+b
+d
+Current check on (row,col): (0,3)
+numMoves:20
+Move is not available
+Current check on (row,col): (1,4)
+numMoves:20
+Move is not available
+Current check on (row,col): (3,4)
+numMoves:20
+Move is not available
+Current check on (row,col): (4,3)
+numMoves:20
+Move is not available
+Current check on (row,col): (4,1)
+numMoves:20
+Move is not available
+Current check on (row,col): (3,0)
+numMoves:20
+Move is not available
+Current check on (row,col): (1,0)
+numMoves:20
+Move is not available
+Current check on (row,col): (0,1)
+numMoves:20
+Move is available
+numMoves:21
+
+0
+
+a
+b
+d
+Current check on (row,col): (-2,2)
+numMoves:21
+Move is not available
+Current check on (row,col): (-1,3)
+numMoves:21
+Move is not available
+Current check on (row,col): (1,3)
+numMoves:21
+Move is not available
+Current check on (row,col): (2,2)
+numMoves:21
+Move is not available
+Current check on (row,col): (2,0)
+numMoves:21
+Move is available
+numMoves:22
+
+0
+
+a
+b
+d
+Current check on (row,col): (0,1)
+numMoves:22
+Move is not available
+Current check on (row,col): (1,2)
+numMoves:22
+Move is not available
+Current check on (row,col): (3,2)
+numMoves:22
+Move is not available
+Current check on (row,col): (4,1)
+numMoves:22
+Move is not available
+Current check on (row,col): (4,-1)
+numMoves:22
+Move is not available
+Current check on (row,col): (3,-2)
+numMoves:22
+Move is not available
+Current check on (row,col): (1,-2)
+numMoves:22
+Move is not available
+Current check on (row,col): (0,-1)
+numMoves:22
+Move is not available
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+Failed!
+[0] [0] [0] [0] [0] 
+[0] [0] [0] [0] [0] 
+[0] [0] [0] [0] [0] 
+[0] [0] [0] [0] [0] 
+[0] [0] [0] [0] [0] 
